@@ -1,0 +1,1 @@
+node_modules\.bin\coffee.cmd -c config.coffee && node_modules\.bin\coffee.cmd -c routes.coffee && node_modules\.bin\coffee.cmd -c server.coffee && node_modules\.bin\browserify.cmd api.coffee -o api.browser.js && node_modules\.bin\coffee.cmd -c app.coffee
